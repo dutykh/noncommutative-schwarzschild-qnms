@@ -1,0 +1,13 @@
+Spin connection omega^{ab}_mu from null torsion (nonzero, a<b):
+  omega^{01}_t = A(r)*Derivative(A(r), r)
+  omega^{12}_th = -A(r)
+  omega^{13}_ph = -A(r)*sin(theta)
+  omega^{23}_ph = -cos(theta)
+Nonzero Riemann components R^{ab}_{mu nu} (a<b, mu<nu):
+  R^{01}_tr = -A(r)*Derivative(A(r), (r, 2)) - Derivative(A(r), r)**2
+  R^{02}_tth = -A(r)**2*Derivative(A(r), r)
+  R^{03}_tph = -A(r)**2*sin(theta)*Derivative(A(r), r)
+  R^{12}_rth = -Derivative(A(r), r)
+  R^{13}_rph = -sin(theta)*Derivative(A(r), r)
+  R^{23}_thph = (1 - A(r)**2)*sin(theta)
+R^{a5}_{mu nu} = k T^a_{mu nu} vanishes identically: True

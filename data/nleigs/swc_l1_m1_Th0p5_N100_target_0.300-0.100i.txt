@@ -1,0 +1,2 @@
+% NLEIGS degree 16, relative residual of each Ritz pair; target vertices: [0.2-0.05i 0.4-0.05i 0.4-0.15i 0.2-0.15i 0.2-0.05i]
+0.292826875356922 -0.099051634706823  5.16e-16

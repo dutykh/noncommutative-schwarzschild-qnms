@@ -1,0 +1,22 @@
+Tetrad e^a_mu = e + Theta e1 + Theta^2 e2 from the Seiberg-Witten equation:
+  e^1_r: zeroth 1/A(r);  Theta 0;  Theta^2 -(2*r*A(r)*Derivative(A(r), r)*Derivative(A(r), (r, 2)) + r*Derivative(A(r), r)**3 - A(r)**2*Derivative(A(r), (r, 2)) + A(r)*Derivative(A(r), r)**2)*A(r)**2/16
+  e^1_th: zeroth 0;  Theta 0;  Theta^2 0
+  e^2_t: zeroth 0;  Theta -I*A(r)**3*Derivative(A(r), r)/4;  Theta^2 0
+  e^2_th: zeroth r;  Theta 0;  Theta^2 -(r*Derivative(A(r), r) - 2*A(r))*A(r)**4*Derivative(A(r), r)/32
+  e^3_ph: zeroth r*sin(theta);  Theta 0;  Theta^2 -(r*A(r)*Derivative(A(r), r) + A(r)**2 - 2)*A(r)**3*sin(theta)*Derivative(A(r), r)/16
+  e^0_t: zeroth A(r);  Theta 0;  Theta^2 (2*r*Derivative(A(r), r) - A(r))*A(r)**4*Derivative(A(r), r)**2/32
+  e^0_th: zeroth 0;  Theta -I*r*A(r)**2*Derivative(A(r), r)/4;  Theta^2 0
+
+Metric, coefficients of Theta^1 and Theta^2 (A^2 = 1 - 2M/r):
+  g_tt: Theta^1 0;  Theta^2 M**2*(-3*M + r)*(-2*M + r)/(8*r**6)
+  g_rr: Theta^1 0;  Theta^2 -M*(11*M**2 - 10*M*r + 2*r**2)/(8*r**4*(-2*M + r))
+  g_thth: Theta^1 0;  Theta^2 M*(-3*M + r)*(-2*M + r)/(8*r**3)
+  g_phph: Theta^1 0;  Theta^2 M*(-2*M + r)*(M + r)*sin(theta)**2/(8*r**3)
+No component of first order in Theta: True
+Deformation functions for the (t, theta) twist:
+  A0 = -M**2*(-3*M + r)/(8*r**5) 
+  B0 = -M*(11*M**2 - 10*M*r + 2*r**2)/(8*r**5) 
+  C0 = M*(-3*M + r)*(-2*M + r)/(8*r**5) 
+  D0 = M*(-2*M + r)*(M + r)/(8*r**5)
+  off-diagonal Theta^2 components: none
+  difference with the article: [0, 0, 0, 0]

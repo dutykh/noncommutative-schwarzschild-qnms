@@ -1,0 +1,1 @@
+N and I1 checked for every 1 <= m <= l <= 12, I2 for the 66 pairs with 2 <= m <= l <= 12; all exact

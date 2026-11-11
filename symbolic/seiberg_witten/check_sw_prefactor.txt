@@ -1,0 +1,16 @@
+Test 1: closed forms against the integrated SW equation (random gl(2) fields, degree 2)
+  mu=0: (3.7)/32 = w2[ODE]: True;  (44)/16 = w2[FP]: True;  (44)/16 = 2 (3.7)/32: True
+  mu=1: (3.7)/32 = w2[ODE]: True;  (44)/16 = w2[FP]: True;  (44)/16 = 2 (3.7)/32: True
+Test 2: gauge equivalence  w_hat(w + delta w) - w_hat(w) = delta_hat w_hat(w)
+  ODE, mu=0: residual vanishes at Theta^0, Theta^1, Theta^2: [True, True, True]
+  ODE, mu=1: residual vanishes at Theta^0, Theta^1, Theta^2: [True, True, True]
+  FP, mu=0: residual vanishes at Theta^0, Theta^1, Theta^2: [True, True, False]
+  FP, mu=1: residual vanishes at Theta^0, Theta^1, Theta^2: [True, True, False]
+Test 2b: can the FP residual at Theta^2 be written as d_mu L + [w_mu, L] for some L?
+  solvable: False
+  (for comparison, the ODE residual at Theta^2 is identically zero: True )
+Test 3: U(1), constant field strength (w_x = -R y / 2, w_y = R x / 2), R a number
+  R=3/2, ODE: R_hat_xy = -27*T**2/8 + 9*I*T/4 + 3/2   (SW exact: -27*Theta**2/8 + 9*I*Theta/4 + 3/2)
+  R=3/2, FP: R_hat_xy = -351*T**2/64 + 9*I*T/4 + 3/2   (SW exact: -27*Theta**2/8 + 9*I*Theta/4 + 3/2)
+  R=-2, ODE: R_hat_xy = 8*T**2 + 4*I*T - 2   (SW exact: 8*Theta**2 + 4*I*Theta - 2)
+  R=-2, FP: R_hat_xy = 13*T**2 + 4*I*T - 2   (SW exact: 8*Theta**2 + 4*I*Theta - 2)

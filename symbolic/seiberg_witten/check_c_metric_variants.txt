@@ -1,0 +1,13 @@
+1. CTZ tetrads, metric (65): Theta^2 coefficient minus CTZ (4.7)
+   s1=+0, s2=+0: {'tt': 0, 'rr': 0, 'thth': 0, 'phph': 0}
+   s1=+1, s2=+0: {'tt': 0, 'rr': 0, 'thth': 0, 'phph': sin(theta)**2/4}
+   s1=-1, s2=+0: {'tt': 0, 'rr': 0, 'thth': 0, 'phph': -sin(theta)**2/4}
+   s1=+1, s2=-1: {'tt': 0, 'rr': 0, 'thth': 0, 'phph': 1/4}
+2. Consistent flip of conventions (s1 = -1 and first-order SW terms reversed), all tetrad sets
+   JKP113: consistent flip reproduces the s1=+1 metric: True;  mixed convention (star s1=-1, tetrads unchanged) minus s1=+1: {'tt': 0, 'rr': 0, 'thth': 0, 'phph': -sin(theta)**2/2}
+   CTZ42: consistent flip reproduces the s1=+1 metric: True;  mixed convention (star s1=-1, tetrads unchanged) minus s1=+1: {'tt': 0, 'rr': 0, 'thth': 0, 'phph': -sin(theta)**2/2}
+   SW32: consistent flip reproduces the s1=+1 metric: True;  mixed convention (star s1=-1, tetrads unchanged) minus s1=+1: {'tt': 0, 'rr': 0, 'thth': 0, 'phph': -sin(theta)**2/2}
+3. Moyal contributions to g_phiphi (any of the tetrad sets): 
+   JKP113: [((1, 0), sin(theta)**2/4), ((0, -1), cos(theta)**2/4), ((1, -1), 1/4)]
+   CTZ42: [((1, 0), sin(theta)**2/4), ((0, -1), cos(theta)**2/4), ((1, -1), 1/4)]
+   SW32: [((1, 0), sin(theta)**2/4), ((0, -1), cos(theta)**2/4), ((1, -1), 1/4)]

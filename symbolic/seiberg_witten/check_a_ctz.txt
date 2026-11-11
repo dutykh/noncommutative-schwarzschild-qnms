@@ -1,0 +1,63 @@
+=== First order, -i Theta^{nu rho} e^a_{mu nu rho} (CTZ (3.11)) ===
+  e^1_th: -i Theta * ((A + 2*A1*r)/4)
+  e^3_ph: -i Theta * (cos(theta)/4)
+  (identical to the k->0 contraction of the SO(4,1) first-order term (3.6))
+
+=== Second order from printed (3.12), prefactor 1/32, D = anti ===
+  e^0_t: Theta^2 * ((A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/8)
+  e^1_r: Theta^2 * (A2/8)
+  e^2_th: Theta^2 * ((7*A*A1 + 12*A*A2*r + 12*A1**2*r)/32)
+  e^3_ph: Theta^2 * ((2*A**2*A1 + A**2*A2*r + 2*A*A1**2*r - A1)*sin(theta)/(8*A))
+
+=== Second order from printed (3.12), prefactor 1/32, D = comm ===
+  e^0_t: Theta^2 * ((A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/8)
+  e^1_r: Theta^2 * (A2/8)
+  e^2_th: Theta^2 * (3*(3*A*A1 + 4*A*A2*r + 4*A1**2*r)/32)
+  e^3_ph: Theta^2 * ((2*A**2*A1 + A**2*A2*r + 2*A*A1**2*r - A1)*sin(theta)/(8*A))
+
+=== Comparison with CTZ (4.2)-(4.6) ===
+  component e^1_r:
+    first order: printed - computed = 0
+    second order, D=anti: computed - printed = 0
+    second order, D=comm: computed - printed = 0
+  component e^1_th:
+    first order: printed - computed = 0
+    second order, D=anti: computed - printed = 0
+    second order, D=comm: computed - printed = 0
+  component e^2_th:
+    first order: printed - computed = 0
+    second order, D=anti: computed - printed = 0
+    second order, D=comm: computed - printed = A*A1/16
+  component e^3_ph:
+    first order: printed - computed = 0
+    second order, D=anti: computed - printed = 0
+    second order, D=comm: computed - printed = 0
+  component e^0_t:
+    first order: printed - computed = 0
+    second order, D=anti: computed - printed = 0
+    second order, D=comm: computed - printed = 0
+
+=== Term-by-term values of the 9 bracket terms of (3.12) (Theta-contracted, D=comm) ===
+  e^1_r: [4*A1**2/A, 0, 4*A2, 0, 0, 0, 0, -4*A1**2/A, 0]
+  e^1_th: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+  e^2_th: [4*A1**2*r, 2*A*A2*r, 4*A*A2*r, 4*r*(A*A2 + A1**2), A*(3*A1 + 2*A2*r), 0, 0, 4*A*A1, 2*A1*(A + 2*A1*r)]
+  e^3_ph: [2*A1*(A**2 + A*A1*r - 1)*sin(theta)/A, 0, 2*A*(2*A1 + A2*r)*sin(theta), 2*r*(A*A2 + A1**2)*sin(theta), 0, 0, -2*A1*sin(theta)/A, 0, 2*A1*(A + 2*A1*r)*sin(theta)]
+  e^0_t: [2*A1*(A*A1 + A*A2*r + A1**2*r), 0, 2*A*(A*A2 + A*A3*r + 2*A1**2 + 3*A1*A2*r), 2*r*(A**2*A3 + 4*A*A1*A2 + A1**3), 0, 0, 0, 0, 2*(A + 2*A1*r)*(A*A2 + A1**2)]
+  (D=anti differs only in T2, T3)
+  e^1_r anti: 0 4*A2
+  e^1_th anti: 0 0
+  e^2_th anti: 2*A*(-A1 + A2*r) 4*A*A2*r
+  e^3_ph anti: 0 2*A*(2*A1 + A2*r)*sin(theta)
+  e^0_t anti: 0 2*A*(A*A2 + A*A3*r + 2*A1**2 + 3*A1*A2*r)
+
+=== Is (3.12) the k->0 contraction of the SO(4,1) formula (3.7)? ===
+  D=anti e^1_r: contraction(3.7)/32 = A2/8;  minus printed (3.12) = 0
+  D=anti e^1_th: contraction(3.7)/32 = 0;  minus printed (3.12) = 0
+  D=anti e^2_th: contraction(3.7)/32 = (2*A*A1 + 3*A*A2*r + 3*A1**2*r)/8;  minus printed (3.12) = A*A1/32
+  D=anti e^3_ph: contraction(3.7)/32 = (2*A**2*A1 + A**2*A2*r + 2*A*A1**2*r - A1)*sin(theta)/(8*A);  minus printed (3.12) = 0
+  D=anti e^0_t: contraction(3.7)/32 = (A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/8;  minus printed (3.12) = 0
+  D=comm e^1_r: contraction(3.7)/32 = A2/8;  minus printed (3.12) = 0
+  D=comm e^1_th: contraction(3.7)/32 = 0;  minus printed (3.12) = 0
+  D=comm e^2_th: contraction(3.7)/32 = (2*A*A1 + 3*A*A2*r + 3*A1**2*r)/8;  minus printed (3.12) = -A*A1/32
+  D=comm e^3_ph: contraction(3.7)/32 = (2*A**2*A1 + A**2*A2*r + 2*A*A1**2*r - A1)*sin(theta)/(8*A);  minus printed (3.12) = 0
+  D=comm e^0_t: contraction(3.7)/32 = (A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/8;  minus printed (3.12) = 0

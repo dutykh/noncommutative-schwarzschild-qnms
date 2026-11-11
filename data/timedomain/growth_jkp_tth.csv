@@ -1,0 +1,3 @@
+# late-time growth: fits of log|Psi| over [T/2, T]; lam_exp from c + lam t, lam_pow and p from c + lam t - p log t; local = dlog|Psi|/dt at T;
+# onset = time of the minimum of the envelope max|Psi| over +-10; rows MOL-profile: rstar_obs = position of max|Psi(T, r*)|, onset columns = interval where |Psi| > max/e
+model,l,m,Theta,method,res,rstar_obs,T,mu,lam_exp,lam_pow,p,local,t_onset,psi_onset

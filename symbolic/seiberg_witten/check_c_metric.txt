@@ -1,0 +1,117 @@
+
+=== tetrads JKP113, star signs s1=+1, s2=-1 ===
+   g_tt Theta^2 coeff = -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/2 | minus JKP(114): 0 | minus CTZ(4.7): -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4
+   g_rr Theta^2 coeff = A2/(2*A) | minus JKP(114): 0 | minus CTZ(4.7): A2/(4*A)
+   g_thth Theta^2 coeff = (A**2 + 20*A*A1*r + 24*A*A2*r**2 + 28*A1**2*r**2)/16 | minus JKP(114): 0 | minus CTZ(4.7): 3*r*(3*A*A1 + 4*A*A2*r + 4*A1**2*r)/16
+   g_phph Theta^2 coeff = (16*A**2*A1*r*sin(theta)**2 + 8*A**2*A2*r**2*sin(theta)**2 + 16*A*A1**2*r**2*sin(theta)**2 - A*sin(theta)**2 + 5*A - 8*A1*r*sin(theta)**2)/(16*A) | minus JKP(114): 0 | minus CTZ(4.7): (2*A**2*A1*r*sin(theta)**2 + A**2*A2*r**2*sin(theta)**2 + 2*A*A1**2*r**2*sin(theta)**2 + A - A1*r*sin(theta)**2)/(4*A)
+
+=== tetrads JKP113, star signs s1=+1, s2=+1 ===
+   g_tt Theta^2 coeff = -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/2 | minus JKP(114): 0 | minus CTZ(4.7): -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4
+   g_rr Theta^2 coeff = A2/(2*A) | minus JKP(114): 0 | minus CTZ(4.7): A2/(4*A)
+   g_thth Theta^2 coeff = (A**2 + 20*A*A1*r + 24*A*A2*r**2 + 28*A1**2*r**2)/16 | minus JKP(114): 0 | minus CTZ(4.7): 3*r*(3*A*A1 + 4*A*A2*r + 4*A1**2*r)/16
+   g_phph Theta^2 coeff = (16*A**2*A1*r*sin(theta)**2 + 8*A**2*A2*r**2*sin(theta)**2 + 16*A*A1**2*r**2*sin(theta)**2 + 7*A*sin(theta)**2 - 3*A - 8*A1*r*sin(theta)**2)/(16*A) | minus JKP(114): -cos(theta)**2/2 | minus CTZ(4.7): (2*A**2*A1*r*sin(theta)**2 + A**2*A2*r**2*sin(theta)**2 + 2*A*A1**2*r**2*sin(theta)**2 + 2*A*sin(theta)**2 - A - A1*r*sin(theta)**2)/(4*A)
+
+=== tetrads JKP113, star signs s1=-1, s2=-1 ===
+   g_tt Theta^2 coeff = -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/2 | minus JKP(114): 0 | minus CTZ(4.7): -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4
+   g_rr Theta^2 coeff = A2/(2*A) | minus JKP(114): 0 | minus CTZ(4.7): A2/(4*A)
+   g_thth Theta^2 coeff = (A**2 + 20*A*A1*r + 24*A*A2*r**2 + 28*A1**2*r**2)/16 | minus JKP(114): 0 | minus CTZ(4.7): 3*r*(3*A*A1 + 4*A*A2*r + 4*A1**2*r)/16
+   g_phph Theta^2 coeff = (16*A**2*A1*r*sin(theta)**2 + 8*A**2*A2*r**2*sin(theta)**2 + 16*A*A1**2*r**2*sin(theta)**2 - 9*A*sin(theta)**2 + 5*A - 8*A1*r*sin(theta)**2)/(16*A) | minus JKP(114): -sin(theta)**2/2 | minus CTZ(4.7): (2*A**2*A1*r*sin(theta)**2 + A**2*A2*r**2*sin(theta)**2 + 2*A*A1**2*r**2*sin(theta)**2 - 2*A*sin(theta)**2 + A - A1*r*sin(theta)**2)/(4*A)
+
+=== tetrads JKP113, star signs s1=-1, s2=+1 ===
+   g_tt Theta^2 coeff = -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/2 | minus JKP(114): 0 | minus CTZ(4.7): -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4
+   g_rr Theta^2 coeff = A2/(2*A) | minus JKP(114): 0 | minus CTZ(4.7): A2/(4*A)
+   g_thth Theta^2 coeff = (A**2 + 20*A*A1*r + 24*A*A2*r**2 + 28*A1**2*r**2)/16 | minus JKP(114): 0 | minus CTZ(4.7): 3*r*(3*A*A1 + 4*A*A2*r + 4*A1**2*r)/16
+   g_phph Theta^2 coeff = (16*A**2*A1*r*sin(theta)**2 + 8*A**2*A2*r**2*sin(theta)**2 + 16*A*A1**2*r**2*sin(theta)**2 - A*sin(theta)**2 - 3*A - 8*A1*r*sin(theta)**2)/(16*A) | minus JKP(114): -1/2 | minus CTZ(4.7): (2*A**2*A1*r*sin(theta)**2 + A**2*A2*r**2*sin(theta)**2 + 2*A*A1**2*r**2*sin(theta)**2 - A - A1*r*sin(theta)**2)/(4*A)
+
+=== tetrads CTZ42, star signs s1=+1, s2=-1 ===
+   g_tt Theta^2 coeff = -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus JKP(114): A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus CTZ(4.7): 0
+   g_rr Theta^2 coeff = A2/(4*A) | minus JKP(114): -A2/(4*A) | minus CTZ(4.7): 0
+   g_thth Theta^2 coeff = (A**2 + 11*A*A1*r + 12*A*A2*r**2 + 16*A1**2*r**2)/16 | minus JKP(114): -3*r*(3*A*A1 + 4*A*A2*r + 4*A1**2*r)/16 | minus CTZ(4.7): 0
+   g_phph Theta^2 coeff = (8*A**2*A1*r*sin(theta)**2 + 4*A**2*A2*r**2*sin(theta)**2 + 8*A*A1**2*r**2*sin(theta)**2 - A*sin(theta)**2 + 5*A - 4*A1*r*sin(theta)**2)/(16*A) | minus JKP(114): -r*(2*A**2*A1 + A**2*A2*r + 2*A*A1**2*r - A1)*sin(theta)**2/(4*A) | minus CTZ(4.7): 1/4
+
+=== tetrads CTZ42, star signs s1=+1, s2=+1 ===
+   g_tt Theta^2 coeff = -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus JKP(114): A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus CTZ(4.7): 0
+   g_rr Theta^2 coeff = A2/(4*A) | minus JKP(114): -A2/(4*A) | minus CTZ(4.7): 0
+   g_thth Theta^2 coeff = (A**2 + 11*A*A1*r + 12*A*A2*r**2 + 16*A1**2*r**2)/16 | minus JKP(114): -3*r*(3*A*A1 + 4*A*A2*r + 4*A1**2*r)/16 | minus CTZ(4.7): 0
+   g_phph Theta^2 coeff = (8*A**2*A1*r*sin(theta)**2 + 4*A**2*A2*r**2*sin(theta)**2 + 8*A*A1**2*r**2*sin(theta)**2 + 7*A*sin(theta)**2 - 3*A - 4*A1*r*sin(theta)**2)/(16*A) | minus JKP(114): -(2*A**2*A1*r*sin(theta)**2 + A**2*A2*r**2*sin(theta)**2 + 2*A*A1**2*r**2*sin(theta)**2 - 2*A*sin(theta)**2 + 2*A - A1*r*sin(theta)**2)/(4*A) | minus CTZ(4.7): -cos(2*theta)/4
+
+=== tetrads CTZ42, star signs s1=-1, s2=-1 ===
+   g_tt Theta^2 coeff = -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus JKP(114): A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus CTZ(4.7): 0
+   g_rr Theta^2 coeff = A2/(4*A) | minus JKP(114): -A2/(4*A) | minus CTZ(4.7): 0
+   g_thth Theta^2 coeff = (A**2 + 11*A*A1*r + 12*A*A2*r**2 + 16*A1**2*r**2)/16 | minus JKP(114): -3*r*(3*A*A1 + 4*A*A2*r + 4*A1**2*r)/16 | minus CTZ(4.7): 0
+   g_phph Theta^2 coeff = (8*A**2*A1*r*sin(theta)**2 + 4*A**2*A2*r**2*sin(theta)**2 + 8*A*A1**2*r**2*sin(theta)**2 - 9*A*sin(theta)**2 + 5*A - 4*A1*r*sin(theta)**2)/(16*A) | minus JKP(114): -(2*A**2*A1*r + A**2*A2*r**2 + 2*A*A1**2*r**2 + 2*A - A1*r)*sin(theta)**2/(4*A) | minus CTZ(4.7): cos(2*theta)/4
+
+=== tetrads CTZ42, star signs s1=-1, s2=+1 ===
+   g_tt Theta^2 coeff = -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus JKP(114): A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus CTZ(4.7): 0
+   g_rr Theta^2 coeff = A2/(4*A) | minus JKP(114): -A2/(4*A) | minus CTZ(4.7): 0
+   g_thth Theta^2 coeff = (A**2 + 11*A*A1*r + 12*A*A2*r**2 + 16*A1**2*r**2)/16 | minus JKP(114): -3*r*(3*A*A1 + 4*A*A2*r + 4*A1**2*r)/16 | minus CTZ(4.7): 0
+   g_phph Theta^2 coeff = (8*A**2*A1*r*sin(theta)**2 + 4*A**2*A2*r**2*sin(theta)**2 + 8*A*A1**2*r**2*sin(theta)**2 - A*sin(theta)**2 - 3*A - 4*A1*r*sin(theta)**2)/(16*A) | minus JKP(114): -(2*A**2*A1*r*sin(theta)**2 + A**2*A2*r**2*sin(theta)**2 + 2*A*A1**2*r**2*sin(theta)**2 + 2*A - A1*r*sin(theta)**2)/(4*A) | minus CTZ(4.7): -1/4
+
+=== tetrads SW32, star signs s1=+1, s2=-1 ===
+   g_tt Theta^2 coeff = -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus JKP(114): A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus CTZ(4.7): 0
+   g_rr Theta^2 coeff = A2/(4*A) | minus JKP(114): -A2/(4*A) | minus CTZ(4.7): 0
+   g_thth Theta^2 coeff = (A**2 + 12*A*A1*r + 12*A*A2*r**2 + 16*A1**2*r**2)/16 | minus JKP(114): -r*(2*A*A1 + 3*A*A2*r + 3*A1**2*r)/4 | minus CTZ(4.7): A*A1*r/16
+   g_phph Theta^2 coeff = (8*A**2*A1*r*sin(theta)**2 + 4*A**2*A2*r**2*sin(theta)**2 + 8*A*A1**2*r**2*sin(theta)**2 - A*sin(theta)**2 + 5*A - 4*A1*r*sin(theta)**2)/(16*A) | minus JKP(114): -r*(2*A**2*A1 + A**2*A2*r + 2*A*A1**2*r - A1)*sin(theta)**2/(4*A) | minus CTZ(4.7): 1/4
+
+=== tetrads SW32, star signs s1=+1, s2=+1 ===
+   g_tt Theta^2 coeff = -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus JKP(114): A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus CTZ(4.7): 0
+   g_rr Theta^2 coeff = A2/(4*A) | minus JKP(114): -A2/(4*A) | minus CTZ(4.7): 0
+   g_thth Theta^2 coeff = (A**2 + 12*A*A1*r + 12*A*A2*r**2 + 16*A1**2*r**2)/16 | minus JKP(114): -r*(2*A*A1 + 3*A*A2*r + 3*A1**2*r)/4 | minus CTZ(4.7): A*A1*r/16
+   g_phph Theta^2 coeff = (8*A**2*A1*r*sin(theta)**2 + 4*A**2*A2*r**2*sin(theta)**2 + 8*A*A1**2*r**2*sin(theta)**2 + 7*A*sin(theta)**2 - 3*A - 4*A1*r*sin(theta)**2)/(16*A) | minus JKP(114): -(2*A**2*A1*r*sin(theta)**2 + A**2*A2*r**2*sin(theta)**2 + 2*A*A1**2*r**2*sin(theta)**2 - 2*A*sin(theta)**2 + 2*A - A1*r*sin(theta)**2)/(4*A) | minus CTZ(4.7): -cos(2*theta)/4
+
+=== tetrads SW32, star signs s1=-1, s2=-1 ===
+   g_tt Theta^2 coeff = -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus JKP(114): A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus CTZ(4.7): 0
+   g_rr Theta^2 coeff = A2/(4*A) | minus JKP(114): -A2/(4*A) | minus CTZ(4.7): 0
+   g_thth Theta^2 coeff = (A**2 + 12*A*A1*r + 12*A*A2*r**2 + 16*A1**2*r**2)/16 | minus JKP(114): -r*(2*A*A1 + 3*A*A2*r + 3*A1**2*r)/4 | minus CTZ(4.7): A*A1*r/16
+   g_phph Theta^2 coeff = (8*A**2*A1*r*sin(theta)**2 + 4*A**2*A2*r**2*sin(theta)**2 + 8*A*A1**2*r**2*sin(theta)**2 - 9*A*sin(theta)**2 + 5*A - 4*A1*r*sin(theta)**2)/(16*A) | minus JKP(114): -(2*A**2*A1*r + A**2*A2*r**2 + 2*A*A1**2*r**2 + 2*A - A1*r)*sin(theta)**2/(4*A) | minus CTZ(4.7): cos(2*theta)/4
+
+=== tetrads SW32, star signs s1=-1, s2=+1 ===
+   g_tt Theta^2 coeff = -A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus JKP(114): A*(A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4 | minus CTZ(4.7): 0
+   g_rr Theta^2 coeff = A2/(4*A) | minus JKP(114): -A2/(4*A) | minus CTZ(4.7): 0
+   g_thth Theta^2 coeff = (A**2 + 12*A*A1*r + 12*A*A2*r**2 + 16*A1**2*r**2)/16 | minus JKP(114): -r*(2*A*A1 + 3*A*A2*r + 3*A1**2*r)/4 | minus CTZ(4.7): A*A1*r/16
+   g_phph Theta^2 coeff = (8*A**2*A1*r*sin(theta)**2 + 4*A**2*A2*r**2*sin(theta)**2 + 8*A*A1**2*r**2*sin(theta)**2 - A*sin(theta)**2 - 3*A - 4*A1*r*sin(theta)**2)/(16*A) | minus JKP(114): -(2*A**2*A1*r*sin(theta)**2 + A**2*A2*r**2*sin(theta)**2 + 2*A*A1**2*r**2*sin(theta)**2 + 2*A - A1*r*sin(theta)**2)/(4*A) | minus CTZ(4.7): -1/4
+
+=== CTZ (3.14) as printed (only the off-diagonal part can differ from (65)) ===
+   s1=+1: g_rth = I*Theta*(A + 2*A1*r)/(4*A)
+   s1=+1: g_thr = -I*Theta*(A + 2*A1*r)/(4*A)
+   s1=+1: diagonal identical to (65): True
+   s1=-1: g_rth = I*Theta*(A + 2*A1*r)/(4*A)
+   s1=-1: g_thr = -I*Theta*(A + 2*A1*r)/(4*A)
+   s1=-1: diagonal identical to (65): True
+
+=== Schwarzschild substitution A = sqrt(1 - 2M/r) ===
+  check of JKP (115) against JKP (114) and of CTZ (4.9) against CTZ (4.7):
+   g_tt: (114)|_Schw - (115) = 0;   (4.7)|_Schw - (4.9) = 0
+   g_rr: (114)|_Schw - (115) = 0;   (4.7)|_Schw - (4.9) = 0
+   g_thth: (114)|_Schw - (115) = 0;   (4.7)|_Schw - (4.9) = 0
+   g_phph: (114)|_Schw - (115) = 0;   (4.7)|_Schw - (4.9) = 0
+  tetrads JKP113, s1=+1, s2=-1:
+   g_tt Theta^2 coeff = -M*(-11*M + 4*r)/(2*r**4)   | minus JKP(115): 0
+   g_rr Theta^2 coeff = -M*(-3*M + 2*r)/(2*r**2*(-2*M + r)**2)   | minus JKP(115): 0
+   g_thth Theta^2 coeff = (64*M**2 - 32*M*r + r**2)/(16*r*(-2*M + r))   | minus JKP(115): 0
+   g_phph Theta^2 coeff = -(-8*M**2*sin(theta)**2 + 6*M*r*sin(theta)**2 + 10*M*r + r**2*sin(theta)**2 - 5*r**2)/(16*r*(-2*M + r))   | minus JKP(115): 0
+  tetrads JKP113, s1=-1, s2=-1:
+   g_tt Theta^2 coeff = -M*(-11*M + 4*r)/(2*r**4)   | minus JKP(115): 0
+   g_rr Theta^2 coeff = -M*(-3*M + 2*r)/(2*r**2*(-2*M + r)**2)   | minus JKP(115): 0
+   g_thth Theta^2 coeff = (64*M**2 - 32*M*r + r**2)/(16*r*(-2*M + r))   | minus JKP(115): 0
+   g_phph Theta^2 coeff = -(-8*M**2*sin(theta)**2 - 10*M*r*sin(theta)**2 + 10*M*r + 9*r**2*sin(theta)**2 - 5*r**2)/(16*r*(-2*M + r))   | minus JKP(115): -sin(theta)**2/2
+  tetrads JKP113, s1=-1, s2=+1:
+   g_tt Theta^2 coeff = -M*(-11*M + 4*r)/(2*r**4)   | minus JKP(115): 0
+   g_rr Theta^2 coeff = -M*(-3*M + 2*r)/(2*r**2*(-2*M + r)**2)   | minus JKP(115): 0
+   g_thth Theta^2 coeff = (64*M**2 - 32*M*r + r**2)/(16*r*(-2*M + r))   | minus JKP(115): 0
+   g_phph Theta^2 coeff = -(-8*M**2*sin(theta)**2 + 6*M*r*sin(theta)**2 - 6*M*r + r**2*sin(theta)**2 + 3*r**2)/(16*r*(-2*M + r))   | minus JKP(115): -1/2
+  tetrads JKP113, s1=+1, s2=+1:
+   g_tt Theta^2 coeff = -M*(-11*M + 4*r)/(2*r**4)   | minus JKP(115): 0
+   g_rr Theta^2 coeff = -M*(-3*M + 2*r)/(2*r**2*(-2*M + r)**2)   | minus JKP(115): 0
+   g_thth Theta^2 coeff = (64*M**2 - 32*M*r + r**2)/(16*r*(-2*M + r))   | minus JKP(115): 0
+   g_phph Theta^2 coeff = (8*M**2*sin(theta)**2 - 22*M*r*sin(theta)**2 + 6*M*r + 7*r**2*sin(theta)**2 - 3*r**2)/(16*r*(-2*M + r))   | minus JKP(115): -cos(theta)**2/2
+  tetrads SW32, s1=+1, s2=-1:
+   g_tt Theta^2 coeff = -M*(-11*M + 4*r)/(4*r**4)   | minus JKP(115): M*(-11*M + 4*r)/(4*r**4)
+   g_rr Theta^2 coeff = -M*(-3*M + 2*r)/(4*r**2*(-2*M + r)**2)   | minus JKP(115): M*(-3*M + 2*r)/(4*r**2*(-2*M + r)**2)
+   g_thth Theta^2 coeff = (32*M**2 - 16*M*r + r**2)/(16*r*(-2*M + r))   | minus JKP(115): M/r
+   g_phph Theta^2 coeff = -(-4*M**2*sin(theta)**2 + 2*M*r*sin(theta)**2 + 10*M*r + r**2*sin(theta)**2 - 5*r**2)/(16*r*(-2*M + r))   | minus JKP(115): M*(-M + r)*sin(theta)**2/(4*r*(-2*M + r))
+  tetrads SW32, s1=-1, s2=-1:
+   g_tt Theta^2 coeff = -M*(-11*M + 4*r)/(4*r**4)   | minus JKP(115): M*(-11*M + 4*r)/(4*r**4)
+   g_rr Theta^2 coeff = -M*(-3*M + 2*r)/(4*r**2*(-2*M + r)**2)   | minus JKP(115): M*(-3*M + 2*r)/(4*r**2*(-2*M + r)**2)
+   g_thth Theta^2 coeff = (32*M**2 - 16*M*r + r**2)/(16*r*(-2*M + r))   | minus JKP(115): M/r
+   g_phph Theta^2 coeff = -(-4*M**2*sin(theta)**2 - 14*M*r*sin(theta)**2 + 10*M*r + 9*r**2*sin(theta)**2 - 5*r**2)/(16*r*(-2*M + r))   | minus JKP(115): -(M**2 - 5*M*r + 2*r**2)*sin(theta)**2/(4*r*(-2*M + r))

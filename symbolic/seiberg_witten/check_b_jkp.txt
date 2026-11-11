@@ -1,0 +1,33 @@
+=== JKP (52): 1/16 * bracket + extra term, D = comm ===
+  e^0_t: Theta^2 * ((A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4)
+  e^1_r: Theta^2 * (A2/4)
+  e^2_th: Theta^2 * ((2*A*A1 + 3*A*A2*r + 3*A1**2*r)/4)
+  e^3_ph: Theta^2 * ((2*A**2*A1 + A**2*A2*r + 2*A*A1**2*r - A1)*sin(theta)/(4*A))
+  extra term (49) alone, Theta-contracted:
+    e^2_th: -A*A1/16
+=== JKP (52): 1/16 * bracket + extra term, D = anti ===
+  e^0_t: Theta^2 * ((A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/4)
+  e^1_r: Theta^2 * (A2/4)
+  e^2_th: Theta^2 * (3*(A*A1 + 2*A*A2*r + 2*A1**2*r)/8)
+  e^3_ph: Theta^2 * ((2*A**2*A1 + A**2*A2*r + 2*A*A1**2*r - A1)*sin(theta)/(4*A))
+  extra term (49) alone, Theta-contracted:
+    e^2_th: -A*A1/16
+
+=== Comparison with JKP (113) ===
+  e^0_t: first order computed - printed = 0;  2nd order D=comm: computed - printed = 0;  2nd order D=anti: computed - printed = 0;
+  e^1_r: first order computed - printed = 0;  2nd order D=comm: computed - printed = 0;  2nd order D=anti: computed - printed = 0;
+  e^1_th: first order computed - printed = 0;  2nd order D=comm: computed - printed = 0;  2nd order D=anti: computed - printed = 0;
+  e^2_th: first order computed - printed = 0;  2nd order D=comm: computed - printed = 0;  2nd order D=anti: computed - printed = -A*A1/8;
+  e^3_ph: first order computed - printed = 0;  2nd order D=comm: computed - printed = 0;  2nd order D=anti: computed - printed = 0;
+
+=== k -> 0 contraction of JKP (44) (prefactor 1/16) and of CTZ (3.7) (prefactor 1/32) ===
+  D=comm e^0_t: (44)/16 - (113) = 0;  (44)/16 - (52) = 0;  (44)/16 / [(3.7)/32] = 2
+  D=comm e^1_r: (44)/16 - (113) = 0;  (44)/16 - (52) = 0;  (44)/16 / [(3.7)/32] = 2
+  D=comm e^1_th: (44)/16 - (113) = 0;  (44)/16 - (52) = 0;  (44)/16 / [(3.7)/32] = 0/0
+  D=comm e^2_th: (44)/16 - (113) = 0;  (44)/16 - (52) = 0;  (44)/16 / [(3.7)/32] = 2
+  D=comm e^3_ph: (44)/16 - (113) = 0;  (44)/16 - (52) = 0;  (44)/16 / [(3.7)/32] = 2
+  D=anti e^0_t: (44)/16 - (113) = 0;  (44)/16 - (52) = 0;  (44)/16 / [(3.7)/32] = 2
+  D=anti e^1_r: (44)/16 - (113) = 0;  (44)/16 - (52) = 0;  (44)/16 / [(3.7)/32] = 2
+  D=anti e^1_th: (44)/16 - (113) = 0;  (44)/16 - (52) = 0;  (44)/16 / [(3.7)/32] = 0/0
+  D=anti e^2_th: (44)/16 - (113) = 0;  (44)/16 - (52) = A*A1/8;  (44)/16 / [(3.7)/32] = 2
+  D=anti e^3_ph: (44)/16 - (113) = 0;  (44)/16 - (52) = 0;  (44)/16 / [(3.7)/32] = 2

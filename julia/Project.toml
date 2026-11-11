@@ -1,0 +1,14 @@
+# Authors: Davide Batic, Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science
+# and Technology, Abu Dhabi, UAE), Stefan Güttel (Department of Mathematics, The University of
+# Manchester, UK) and Narges Heidari (Faculty of Physics, Shahrood University of Technology, Iran)
+[deps]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+NonlinearEigenproblems = "067cfa3b-fa88-53b2-a873-5b23b3a16e31"
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[compat]
+NonlinearEigenproblems = "1.1"
+Polynomials = "4.1"
+julia = "1.12"

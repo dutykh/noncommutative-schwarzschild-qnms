@@ -1,0 +1,70 @@
+# Authors: Davide Batic, Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science
+# and Technology, Abu Dhabi, UAE), Stefan Güttel (Department of Mathematics, The University of
+# Manchester, UK) and Narges Heidari (Faculty of Physics, Shahrood University of Technology, Iran)
+#
+# Citation metadata in Citation File Format 1.2.0, from which GitHub draws its button "Cite this
+# repository". The preferred citation is the article that these codes and data accompany.
+
+cff-version: 1.2.0
+message: "If you use these codes or data, please cite the article given as the preferred citation."
+title: "Noncommutative Schwarzschild black holes at second order: codes and data"
+abstract: >-
+  Codes and data of the article "Noncommutative Schwarzschild black holes at second order:
+  the correct metric, a branch cut at the horizon, and the quasinormal spectrum by eight
+  methods". The exact computations derive the tetrad and the metric of the Schwarzschild
+  black hole deformed at second order in the noncommutativity parameter by the
+  Seiberg–Witten map, compare the two published versions with them, and check the radial
+  equation, its angular sums and the values of its potential at the horizon. The numerical
+  codes compute the scalar quasinormal spectrum, the eigenvalues of a nonlinear problem with
+  a branch cut, by eight methods: spectral collocation solved by a Joukowski map, by the
+  fully rational Krylov method NLEIGS in two realisations, by contour integrals and by
+  Newton's method in high precision, a Jost function, exterior complex scaling, time
+  evolution, and high-order WKB with Padé approximants. The data are those of every table
+  and figure of the article.
+type: software
+version: "1.0.0"
+date-released: "2026-11-11"
+license: LGPL-2.1-only
+repository-code: "https://github.com/dutykh/noncommutative-schwarzschild-qnms"
+keywords:
+  - noncommutative gravity
+  - Seiberg–Witten map
+  - Schwarzschild black hole
+  - quasinormal modes
+  - nonlinear eigenvalue problem
+  - branch cut
+  - rational Krylov method
+authors:
+  - family-names: Batic
+    given-names: Davide
+    affiliation: "Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
+    orcid: "https://orcid.org/0000-0002-7619-4900"
+  - family-names: Dutykh
+    given-names: Denys
+    affiliation: "Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
+    orcid: "https://orcid.org/0000-0001-5247-2788"
+  - family-names: Güttel
+    given-names: Stefan
+    affiliation: "Department of Mathematics, The University of Manchester, Manchester, United Kingdom"
+  - family-names: Heidari
+    given-names: Narges
+    affiliation: "Faculty of Physics, Shahrood University of Technology, Shahrood, Iran"
+preferred-citation:
+  type: unpublished
+  title: "Noncommutative Schwarzschild black holes at second order: the correct metric, a branch cut at the horizon, and the quasinormal spectrum by eight methods"
+  year: 2026
+  authors:
+    - family-names: Batic
+      given-names: Davide
+      affiliation: "Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
+      orcid: "https://orcid.org/0000-0002-7619-4900"
+    - family-names: Dutykh
+      given-names: Denys
+      affiliation: "Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
+      orcid: "https://orcid.org/0000-0001-5247-2788"
+    - family-names: Güttel
+      given-names: Stefan
+      affiliation: "Department of Mathematics, The University of Manchester, Manchester, United Kingdom"
+    - family-names: Heidari
+      given-names: Narges
+      affiliation: "Faculty of Physics, Shahrood University of Technology, Shahrood, Iran"

@@ -1,0 +1,6 @@
+# Authors: Davide Batic, Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science
+# and Technology, Abu Dhabi, UAE), Stefan Güttel (Department of Mathematics, The University of
+# Manchester, UK) and Narges Heidari (Faculty of Physics, Shahrood University of Technology, Iran)
+sympy>=1.14
+numpy>=2.3
+matplotlib>=3.10

@@ -1,0 +1,5 @@
+e^0_t: first = 0; second (contraction of (3.7))/32 = (A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/8; printed (3.12)/32 with D=anti: (A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/8, with D=comm: (A**2*A2 + A**2*A3*r + 2*A*A1**2 + 5*A*A1*A2*r + 2*A1**3*r)/8
+e^1_r: first = 0; second (contraction of (3.7))/32 = A2/8; printed (3.12)/32 with D=anti: A2/8, with D=comm: A2/8
+e^1_th: first = (A + 2*A1*r)/4; second (contraction of (3.7))/32 = 0; printed (3.12)/32 with D=anti: 0, with D=comm: 0
+e^2_th: first = 0; second (contraction of (3.7))/32 = (2*A*A1 + 3*A*A2*r + 3*A1**2*r)/8; printed (3.12)/32 with D=anti: (7*A*A1 + 12*A*A2*r + 12*A1**2*r)/32, with D=comm: 3*(3*A*A1 + 4*A*A2*r + 4*A1**2*r)/32
+e^3_ph: first = cos(theta)/4; second (contraction of (3.7))/32 = (2*A**2*A1 + A**2*A2*r + 2*A*A1**2*r - A1)*sin(theta)/(8*A); printed (3.12)/32 with D=anti: (2*A**2*A1 + A**2*A2*r + 2*A*A1**2*r - A1)*sin(theta)/(8*A), with D=comm: (2*A**2*A1 + A**2*A2*r + 2*A*A1**2*r - A1)*sin(theta)/(8*A)

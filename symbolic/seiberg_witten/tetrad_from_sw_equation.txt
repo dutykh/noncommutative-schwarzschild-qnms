@@ -1,0 +1,19 @@
+Tetrad e^a_mu = e + Theta e1 + Theta^2 e2 from the Seiberg-Witten equation:
+  e^1_r: zeroth 1/A(r);  Theta 0;  Theta^2 Derivative(A(r), (r, 2))/8
+      difference with the theorem: Theta 0, Theta^2 0
+  e^1_th: zeroth 0;  Theta I*(-2*r*Derivative(A(r), r) - A(r))/4;  Theta^2 0
+      difference with the theorem: Theta 0, Theta^2 0
+  e^2_th: zeroth r;  Theta 0;  Theta^2 (3*r*A(r)*Derivative(A(r), (r, 2)) + 3*r*Derivative(A(r), r)**2 + 2*A(r)*Derivative(A(r), r))/8
+      difference with the theorem: Theta 0, Theta^2 0
+  e^3_ph: zeroth r*sin(theta);  Theta -I*cos(theta)/4;  Theta^2 (r*A(r)**2*Derivative(A(r), (r, 2)) + 2*r*A(r)*Derivative(A(r), r)**2 + 2*A(r)**2*Derivative(A(r), r) - Derivative(A(r), r))*sin(theta)/(8*A(r))
+      difference with the theorem: Theta 0, Theta^2 0
+  e^0_t: zeroth A(r);  Theta 0;  Theta^2 (r*A(r)**2*Derivative(A(r), (r, 3)) + 5*r*A(r)*Derivative(A(r), r)*Derivative(A(r), (r, 2)) + 2*r*Derivative(A(r), r)**3 + A(r)**2*Derivative(A(r), (r, 2)) + 2*A(r)*Derivative(A(r), r)**2)/8
+      difference with the theorem: Theta 0, Theta^2 0
+Tetrad of the theorem reproduced: True
+
+Metric, coefficients of Theta^1 and Theta^2 (A^2 = 1 - 2M/r):
+  g_tt: Theta^1 0;  Theta^2 -M*(-11*M + 4*r)/(4*r**4);  difference with the theorem 0
+  g_rr: Theta^1 0;  Theta^2 -M*(-3*M + 2*r)/(4*r**2*(-2*M + r)**2);  difference with the theorem 0
+  g_thth: Theta^1 0;  Theta^2 (32*M**2 - 16*M*r + r**2)/(16*r*(-2*M + r));  difference with the theorem 0
+  g_phph: Theta^1 0;  Theta^2 -(-4*M**2*sin(theta)**2 + 2*M*r*sin(theta)**2 + 10*M*r + r**2*sin(theta)**2 - 5*r**2)/(16*r*(-2*M + r));  difference with the theorem 0
+Metric of the theorem reproduced: True

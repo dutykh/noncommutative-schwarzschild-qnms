@@ -1,0 +1,4 @@
+# V_h, minimum of V on [-600, 600], lowest Dirichlet eigenvalue of -d2 + V on [-L, 400] (second differences, h = 0.1) for L = 400 and 800
+model,l,m,Theta,V_h,Vmin,ev_L400,ev_L800
+ctz,1,1,0.500,-2.7716231006e-03,-2.7716231006e-03,-2.7093812850e-03,-2.7561324194e-03
+ctz,1,1,1.000,-9.5485283445e-03,-9.5485283445e-03,-9.4863891854e-03,-9.5330504283e-03
