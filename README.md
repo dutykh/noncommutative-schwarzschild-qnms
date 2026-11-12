@@ -66,7 +66,15 @@ The folder `symbolic/` holds the exact computations, in SymPy. Its subfolder `se
 
 The folder `julia/` holds the numerical methods: `NCQNM.jl` (the models, the factorised radial equation, Chebyshev collocation, the quartic Joukowski pencil and Newton's method in any arithmetic), `nepsolvers.jl` (NLEIGS and Beyn's contour integral), `leaver.jl` (Leaver's continued fraction for Schwarzschild), `jost.jl` (the Jost function in 256-bit arithmetic), `ECS.jl` (exterior complex scaling), `TimeDomain.jl` (characteristic grid, method of lines and matrix pencil) and `wkb.jl` (WKB to thirteenth order with Padé approximants). Its subfolder `julia/scripts/` holds the scripts that produce the data.
 
-The MATLAB function `matlab/nleigs_driver.m` is the second realisation of NLEIGS, with the Rational Krylov Toolbox; it reads the collocation matrices written by `julia/scripts/export_matrices.jl` into `data/matrices/`, which are not stored here because that script regenerates them.
+The MATLAB function `matlab/nleigs_driver.m` is the second realisation of NLEIGS, with the Rational Krylov Toolbox; it reads the collocation matrices of `data/matrices/`, which `julia/scripts/export_matrices.jl` writes and which are stored here as well, so that the nonlinear eigenvalue problem can be solved in any language without Julia.
+
+The folder `data/matrices/` holds ten cases: the correct metric for ℓ = m = 1 with Θ = 0.5 M and Θ = 0.1 M and for ℓ = 2, m = 1 with Θ = 0.5 M, the metric of Chaichian, Tureanu and Zet for ℓ = m = 1 with Θ = 0.5 M, and the doubled metric for ℓ = m = 1 with Θ = 0.1 M, each at the degrees N = 80 and N = 100 of the Chebyshev expansion. A case is named by a tag such as `swc_l1_m1_Th0p5_N100`, and its eleven files hold the five matrices of
+
+```text
+T(ω) = M1 + ω Mω + ω² Mω² + k(ω) (Mk + ω Mkω),    k(ω) = (ω² − V_h)^(1/2),
+```
+
+each of size (N + 1) × (N + 1), in the files `TAG_one`, `TAG_w`, `TAG_w2`, `TAG_k` and `TAG_kw`, with the real and the imaginary parts in separate files ending in `_re.txt` and `_im.txt` (one row of the matrix per line, entries separated by spaces, 17 significant digits), and the value `V_h` of the potential at the horizon in `TAG_Vh.txt`. Units are M = 1, and on the physical sheet k is the principal square root wherever Re ω > 0.
 
 The folder `data/` holds the results as CSV files, `figures/` the scripts that draw the figures of the article (with `manuscript_style.py`, a fixed copy of the figure style), and `tables/` the scripts that format its two longest tables. The diagram shows how the pieces feed one another.
 
@@ -130,13 +138,13 @@ python3 symbolic/seiberg_witten/check_sw_prefactor.py | diff - symbolic/seiberg_
 
 prints nothing. The figures set their text with LaTeX in Latin Modern, so a LaTeX installation is needed for them; with `FIGURE_USETEX=0` they are drawn without LaTeX, in another font. Before it is saved, each figure is checked for a label, a legend or a colour bar that crosses a curve or another label, and refused if one does; with other fonts such a crossing may appear, and `FIGURE_FORCE=1` then writes the figure all the same. The figures are written to `figures/pdf/`, and with LaTeX they reproduce those of the article.
 
-The MATLAB driver needs the matrices of `data/matrices/`, written by
+The MATLAB driver reads the matrices stored in `data/matrices/`, which are written again by
 
 ```text
 julia --project=julia julia/scripts/export_matrices.jl
 ```
 
-and the Rational Krylov Toolbox on the MATLAB path; the toolbox is available at
+and it needs the Rational Krylov Toolbox on the MATLAB path; the toolbox is available at
 
 https://rktoolbox.org/
 
