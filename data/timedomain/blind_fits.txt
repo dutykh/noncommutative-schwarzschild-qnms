@@ -1,0 +1,14 @@
+# Fundamental tones at Theta = 0.5 from the method of lines (h = 0.1, r* = 10), fitted with
+# three guides and with none; err = |w - Jost zero|, spread over the 11 most stable windows.
+swc (1,1) guide Jost zero                  w = 0.292826875185 -0.099051635008 i  err 3.45e-10  spread 2.9e-10  (W = 80, M = 10)
+swc (1,1) guide Schwarzschild              w = 0.292826875185 -0.099051635008 i  err 3.45e-10  spread 2.9e-10  (W = 80, M = 10)
+swc (1,1) guide Schwarzschild + 0.01(1-i)  w = 0.292826875185 -0.099051635008 i  err 3.45e-10  spread 2.9e-10  (W = 80, M = 10)
+swc (1,1) no guide                   w = 0.292826875185 -0.099051635008 i  err 3.45e-10  spread 2.9e-10  (W = 80, M = 10)
+swc (2,1) guide Jost zero                  w = 0.482506039440 -0.098390418285 i  err 9.33e-11  spread 2.8e-11  (W = 60, M = 10)
+swc (2,1) guide Schwarzschild              w = 0.482506039440 -0.098390418285 i  err 9.33e-11  spread 2.8e-11  (W = 60, M = 10)
+swc (2,1) guide Schwarzschild + 0.01(1-i)  w = 0.482506039440 -0.098390418285 i  err 9.33e-11  spread 2.8e-11  (W = 60, M = 10)
+swc (2,1) no guide                   w = 0.482506039440 -0.098390418285 i  err 9.33e-11  spread 2.8e-11  (W = 60, M = 10)
+swc (2,2) guide Jost zero                  w = 0.483572142077 -0.098116775900 i  err 9.12e-11  spread 2.3e-11  (W = 60, M = 10)
+swc (2,2) guide Schwarzschild              w = 0.483572142077 -0.098116775900 i  err 9.12e-11  spread 2.3e-11  (W = 60, M = 10)
+swc (2,2) guide Schwarzschild + 0.01(1-i)  w = 0.483572142077 -0.098116775900 i  err 9.12e-11  spread 2.3e-11  (W = 60, M = 10)
+swc (2,2) no guide                   w = 0.483572142077 -0.098116775900 i  err 9.12e-11  spread 2.3e-11  (W = 60, M = 10)
