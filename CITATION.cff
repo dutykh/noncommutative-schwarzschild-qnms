@@ -3,10 +3,11 @@
 # Manchester, UK) and Narges Heidari (Faculty of Physics, Shahrood University of Technology, Iran)
 #
 # Citation metadata in Citation File Format 1.2.0, from which GitHub draws its button "Cite this
-# repository". The preferred citation is the article that these codes and data accompany.
+# repository". The article that these codes and data accompany is not yet published, so the
+# software itself is cited.
 
 cff-version: 1.2.0
-message: "If you use these codes or data, please cite the article given as the preferred citation."
+message: "If you use these codes or data, please cite this software as given below."
 title: "Noncommutative Schwarzschild black holes at second order: codes and data"
 abstract: >-
   Codes and data of the article "Noncommutative Schwarzschild black holes at second order:
@@ -23,17 +24,22 @@ abstract: >-
   and figure of the article.
 type: software
 version: "1.0.0"
-date-released: "2026-11-11"
+date-released: "2026-11-14"
 license: LGPL-2.1-only
 repository-code: "https://github.com/dutykh/noncommutative-schwarzschild-qnms"
 keywords:
-  - noncommutative gravity
-  - Seiberg–Witten map
-  - Schwarzschild black hole
-  - quasinormal modes
-  - nonlinear eigenvalue problem
-  - branch cut
-  - rational Krylov method
+  - black-holes
+  - quasinormal-modes
+  - general-relativity
+  - schwarzschild-black-hole
+  - noncommutative-geometry
+  - seiberg-witten-map
+  - spectral-methods
+  - chebyshev-polynomials
+  - julia
+  - python
+  - matlab
+  - reproducible-research
 authors:
   - family-names: Batic
     given-names: Davide
@@ -49,22 +55,3 @@ authors:
   - family-names: Heidari
     given-names: Narges
     affiliation: "Faculty of Physics, Shahrood University of Technology, Shahrood, Iran"
-preferred-citation:
-  type: unpublished
-  title: "Noncommutative Schwarzschild black holes at second order: the correct metric, a branch cut at the horizon, and the quasinormal spectrum by eight methods"
-  year: 2026
-  authors:
-    - family-names: Batic
-      given-names: Davide
-      affiliation: "Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
-      orcid: "https://orcid.org/0000-0002-7619-4900"
-    - family-names: Dutykh
-      given-names: Denys
-      affiliation: "Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
-      orcid: "https://orcid.org/0000-0001-5247-2788"
-    - family-names: Güttel
-      given-names: Stefan
-      affiliation: "Department of Mathematics, The University of Manchester, Manchester, United Kingdom"
-    - family-names: Heidari
-      given-names: Narges
-      affiliation: "Faculty of Physics, Shahrood University of Technology, Shahrood, Iran"

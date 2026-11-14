@@ -37,13 +37,14 @@ The codes and the data use units in which the mass is M = 1, and a tone is quote
 
 ## How to cite
 
-The article to cite is the following.
+The article that these codes and data accompany, "Noncommutative Schwarzschild black holes at second order: the correct metric, a branch cut at the horizon, and the quasinormal spectrum by eight methods", by D. Batic, D. Dutykh, S. Güttel and N. Heidari, has not been published yet. Until it is, please cite the software:
 
 ```text
-D. Batic, D. Dutykh, S. Güttel and N. Heidari, Noncommutative Schwarzschild black holes at
-second order: the correct metric, a branch cut at the horizon, and the quasinormal spectrum
-by eight methods (2026).
+D. Batic, D. Dutykh, S. Güttel and N. Heidari, noncommutative-schwarzschild-qnms: codes and data
+of noncommutative Schwarzschild black holes at second order, software, version 1.0.0 (2026).
 ```
+
+https://github.com/dutykh/noncommutative-schwarzschild-qnms
 
 The file `CITATION.cff` gives the same reference to the button *Cite this repository* of GitHub.
 
