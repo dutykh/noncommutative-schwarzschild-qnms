@@ -10,6 +10,10 @@ Davide Batic¹, Denys Dutykh¹, Stefan Güttel² and Narges Heidari³
 
 Corresponding author: Davide Batic, davide.batic@ku.ac.ae
 
+![The error of the collocation against the degree of the Chebyshev expansion, and the error of every method on five tones](docs/figures/noncommutative-schwarzschild-methods.png)
+
+The methods compared, for the correct metric with Θ = 0.5 M (units M = 1), each tone measured by its distance to the zero of the Jost function. Panel (a) follows the fundamental (n = 0) and the first overtone (n = 1) of ℓ = m = 1 as the degree N of the Chebyshev expansion grows: with Newton's method in 256-bit arithmetic the error falls exponentially, to 3 × 10⁻²² for the fundamental at N = 100, while the quartic pencil in double precision stops improving from N ≈ 56 on, near 10⁻¹⁵ for the fundamental and 10⁻⁹ for the overtone, after which rounding errors grow again. Panel (b) gives the error of every method on five tones, labelled by (ℓ, m) and the overtone number n, four of the correct metric and the fundamental of the metric of Chaichian, Tureanu and Zet (CTZ): about 10⁻²⁷ for Newton's method in 256 bits, between 10⁻¹⁷ and 10⁻⁷ for the methods in double precision, and from about 10⁻⁸ to 10⁻³ for WKB, depending on its order and on the Padé approximants.
+
 This repository accompanies the article *Noncommutative Schwarzschild black holes at second order: the correct metric, a branch cut at the horizon, and the quasinormal spectrum by eight methods*. It contains the exact computations behind its theorems, the codes of the eight methods that compute its quasinormal spectrum, and the data and scripts of every table and figure.
 
 ## The article
@@ -41,7 +45,7 @@ The article that these codes and data accompany, "Noncommutative Schwarzschild b
 
 ```text
 D. Batic, D. Dutykh, S. Güttel and N. Heidari, noncommutative-schwarzschild-qnms: codes and data
-of noncommutative Schwarzschild black holes at second order, software, version 1.0.0 (2026).
+of noncommutative Schwarzschild black holes at second order, software, version 1.0.1 (2026).
 ```
 
 https://github.com/dutykh/noncommutative-schwarzschild-qnms
@@ -79,7 +83,7 @@ each of size (N + 1) × (N + 1), in the files `TAG_one`, `TAG_w`, `TAG_w2`, `TAG
 
 The tests of the limits of the second-order theory have their own scripts. In `symbolic/`, `axis_model.py` checks in exact arithmetic that sin θ is an exact eigenfunction of the angular operator of the model of the axis layer and computes its Dirichlet and Neumann eigenvalues numerically, against the matched expansion of the article (with its printout `axis_model.txt`). In `julia/scripts/`, `layer_test.jl` adds to the potential of the correct metric a term of fourth order at every fixed radius but of second order in the layer near the horizon and measures how the dipole tones move, writing `data/limits/layer_n*_Th*.csv`; `axis_test.jl` computes the response of the Schwarzschild tones to a term f/r⁴ of the potential, which gives the effect of the completions of the axis on the first-order coefficients, and checks it directly for the dipole fundamental (`data/limits/axis_response.csv`, `data/limits/axis_direct.csv`); `first_order_check.jl` repeats the extrapolation of the first-order coefficients with a halved triplet (`data/production/first_order_check.csv`); and `td_blind.jl` fits the time evolutions with three guides and with none (`data/timedomain/blind_fits.txt`).
 
-The folder `data/` holds the results as CSV files, `figures/` the scripts that draw the figures of the article (with `manuscript_style.py`, a fixed copy of the figure style), and `tables/` the scripts that format its two longest tables. The diagram shows how the pieces feed one another.
+The folder `data/` holds the results as CSV files, `figures/` the scripts that draw the figures of the article (with `manuscript_style.py`, a fixed copy of the figure style), and `tables/` the scripts that format its two longest tables. The picture at the top of this page is the figure drawn by `figures/fig_methods.py`, kept as a PNG image in `docs/figures/`. The diagram shows how the pieces feed one another.
 
 ```mermaid
 flowchart LR

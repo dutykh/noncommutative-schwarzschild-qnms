@@ -23,8 +23,8 @@ abstract: >-
   evolution, and high-order WKB with Padé approximants. The data are those of every table
   and figure of the article.
 type: software
-version: "1.0.0"
-date-released: "2026-11-14"
+version: "1.0.1"
+date-released: "2026-11-15"
 license: LGPL-2.1-only
 repository-code: "https://github.com/dutykh/noncommutative-schwarzschild-qnms"
 keywords:
